@@ -160,7 +160,8 @@ body, hmtl
     margin-left: -5rem;
 }
 
-.infProfile i
+.infProfile i,
+.callSettings
 {
     color: #fefefec0;
     font-size: 1.8rem;
