@@ -19,6 +19,7 @@ body, html
 {
     background: #2f3136;
     padding: .5rem 0 0 0;
+    user-select: none;
 }
 
 
@@ -89,20 +90,21 @@ body, html
     color: #fefefec3;
 
     margin: .3rem 0 .3rem 0;
-    padding: .3rem 0 0 .3rem;
+    padding: .9rem 0 0 .9rem;
     border-radius: .2rem;
     margin-left: -.5rem;
     width: 98%;
 }
-.itemsCategoria 
+.itemsCategoria
 .itemsCategoria i
 {
     color: rgb(133, 132, 132);
-    font-size: 1.9rem;
+    font-size: 2.3rem;
 }
 
 /*channels*/
 .channelsClose
 {
     display: none;
+    margin-left: 1rem;
 }
