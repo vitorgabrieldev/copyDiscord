@@ -1,0 +1,168 @@
+/*======================================================================*/
+/*======================Style sheets principal==========================*/
+/*======================================================================*/
+
+
+body, hmtl
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    overflow-y: hidden;
+}
+
+
+/* Menu Principal */
+.menuLeft
+{
+    position: absolute;
+    background: #202225;
+
+    width: 4.4rem;
+    height: 100%;
+}
+
+.menuLeft .barVertical
+{
+    width: 100%;
+    height: 100%;
+}
+
+.btnLeft-list
+{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+.itemsList
+{
+    width: 183%;
+    margin-left: -2rem;
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+}
+
+.itemsList i
+{
+    color: #dcddde;
+    font-size: 2.3rem;
+    background:#36393f;
+    padding: .5rem;
+    border-radius: 50%;
+}
+
+.itemsList img,
+.itemsList i
+{
+    cursor: pointer;
+    transition: .3s;
+}
+.itemsList img:hover,
+.itemsList i:hover
+{
+    transform: scale(.95);
+}
+.smallbar
+{
+    border: #dcddde 1px solid;
+    margin-left: -1.5rem;
+    width: 130%;
+}
+
+/* Barra de canais */
+.chanellsServer
+{
+    background: #2f3136;
+    position: absolute;
+    margin-left: 4.4rem;
+    width: 19.5rem;
+    height: 100%;
+}
+
+.nameServer
+{
+    position: absolute;
+    width: 100%;
+    height: 3.1rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0 0 2px #000;
+    z-index: 1;
+}
+
+.nameServer h1,
+.nameServer i
+{
+    color: #fefefe;
+    font-size: 1.2rem;
+}
+.nameServer i
+{
+    font-size: 2rem;
+}
+
+.embedCanais
+{
+    position: relative;
+    margin-top: 3.1rem;
+    width: 100%;
+    height: 88%;
+}
+
+
+.profileSettings
+{
+    position: absolute;
+    background:#292b2f;
+    /* background: red; */
+    width: 100%;
+    height: 3.6rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .8rem;
+}
+
+.imgProfile
+{
+    border-radius: 50%;
+    background: #888;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.infProfile
+{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-between;
+}
+.profileSettings ul li
+{
+    color: #fefefe;
+    font-size: .9rem;
+    font-weight: 700;
+    list-style-type: none;
+}
+.profileSettings ul li:nth-child(2)
+{
+    color: #888;
+    font-weight: 400;
+}
+
+.profileSettings ul
+{
+    margin-top: .9rem;
+    margin-left: -5rem;
+}
+
+.infProfile i
+{
+    color: #fefefec0;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
