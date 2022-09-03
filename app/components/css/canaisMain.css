@@ -108,3 +108,9 @@ body, html
     display: none;
     margin-left: 1rem;
 }
+
+.rotateIcons
+{
+    transition-duration: .3s;
+    transform: rotate(90deg);
+}
