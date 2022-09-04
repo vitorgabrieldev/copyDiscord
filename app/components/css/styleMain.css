@@ -64,6 +64,18 @@ body, hmtl
 {
     transform: scale(.95);
 }
+
+.datailsWhrite
+{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 50px;
+    margin-top: -5px;
+    background: #fefefe;
+    border-radius: 0 12px 12px 0;
+}
+
 .smallbar
 {
     border: #dcddde 1px solid;
