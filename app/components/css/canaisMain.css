@@ -103,7 +103,7 @@ body, html
 .itemsCategoria i
 {
     color: rgb(133, 132, 132);
-    font-size: 2.3rem;
+    font-size: 2rem;
 }
 
 .itemsCategoria:hover
@@ -122,4 +122,64 @@ body, html
 {
     transition-duration: .3s;
     transform: rotate(90deg);
+}
+
+
+.profileSettings
+{
+    position: fixed;
+    background:#292b2f;
+    /* background: red; */
+    width: 100%;
+    height: 3.6rem;
+
+    /* transform: translateY(1000%); */
+    margin-top: 260%;
+    z-index: 100;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .8rem;
+}
+
+.imgProfile
+{
+    border-radius: 50%;
+    background: #888;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.infProfile
+{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-between;
+}
+.profileSettings ul li
+{
+    color: #fefefe;
+    font-size: .9rem;
+    font-weight: 700;
+    list-style-type: none;
+}
+.profileSettings ul li:nth-child(2)
+{
+    color: #888;
+    font-weight: 400;
+}
+
+.profileSettings ul
+{
+    margin-top: .9rem;
+    margin-left: -5rem;
+}
+
+.infProfile i,
+.callSettings
+{
+    color: #fefefec0;
+    font-size: 1.8rem;
+    cursor: pointer;
 }
