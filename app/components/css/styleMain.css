@@ -194,8 +194,9 @@ body, hmtl
 {
     position: absolute;
     width: 100%;
-    height: 85%;
-    margin-top: 1.5rem;
+    height: 80%;
+    margin-top: 3.3rem;
+
 }
 
 .containerMsg ul
@@ -211,4 +212,44 @@ body, hmtl
     color: #d1d1d1;
     list-style: none;
     padding: .3rem;
+}
+
+
+/*===== Bar top chat =====*/
+.channelsInf
+{
+    position: fixed;
+    width: 50.8%;
+    height: 3.1rem;
+    display: flex;
+    justify-content: space-evenly;
+
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.479);
+}
+.channelsInf i
+{
+    font-size: 2.5rem;
+    color: #fefefe;
+}
+.channelsInf div
+{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.channelsInf h1,
+.channelsInf h3
+{
+    font-size: 1.3rem;
+    color: #fefefe;
+}
+.channelsInf h3
+{
+    font-size: 1rem;
+}
+
+.channelsInf svg
+{
+    color: #fefefe;
 }
